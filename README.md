@@ -1,2 +1,2 @@
 # MeanShiftSegmentation
-Use the Main.m to run the mean shift segmentation on the sample images provided. The optimized parameters for mean shift segmentation can be found in the word document.
+Use Main.m file to perform mean shift segmentation on the sample images provided. The optimized parameters for the images can be found in the word document provided.
