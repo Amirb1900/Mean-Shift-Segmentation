@@ -26,7 +26,7 @@ labels = zeros(length(imageData),1); % storing for every point
 % Label for 1st data point (For initialization)
 label = 1;
 label_values = zeros(size(image,1)*size(image,2),size(image,3)); % stores only for each class
-peak = findpeak(imageData,1,radius,tolerance);
+peak = findpeakopt(imageData,1,radius,tolerance);
 diff = peak - imageData;
 diff_norm = vecnorm(diff')';
 [~,minInd] = min(diff_norm);
